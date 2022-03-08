@@ -1,8 +1,29 @@
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito');
-
 // Variables
+$primary: #0c6971;
+$border-radius-lg:2rem;
+$btn-padding-x-lg :2rem;
 @import 'variables';
-
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+.user-img {
+    width: 40px;
+    height: 40px;
+}
+
+.cover-img {
+    height: 350px;
+    object-fit: cover;
+}
+
+.post {
+    border-bottom: 1px solid $border-color;
+    padding-bottom: 1.5rem;
+}
+
+.post:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
